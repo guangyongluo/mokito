@@ -22,11 +22,18 @@
         <lombok.version>1.18.22</lombok.version>
         <mockito.version>4.4.0</mockito.version>
         <powermock.version>1.6.3</powermock.version>
+        <swagger.version>3.0.0</swagger.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-boot-starter</artifactId>
+            <version>${swagger.version}</version>
         </dependency>
 
         <dependency>
